@@ -6,6 +6,10 @@ import { Display } from "./Display"
 import {Intro} from "./Intro"
 import {Student} from "./Student"
 import {Event} from "./Event"
+import {Lists} from "./Lists"
+import {Count} from "./Count"
+import { StateLifting } from "./StateLifting"
+import {Forms} from "./Forms"
 // Every React application starts with a component.
 export const App = () => {
 // Whatever is returned gets displayed on the browser.
@@ -19,6 +23,10 @@ export const App = () => {
         age={20}
       />
       <Event />
+      <Lists />
+      <Count />
+      <StateLifting />
+      <Forms />
     </div>
   );
 }
