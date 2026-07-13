@@ -2,31 +2,14 @@
 //main.jsx runs first and then sets up React and mounts the app.
 //main.jsx imports App.jsx.
 //React renders whatever App.jsx returns 
-import { Display } from "./Display"
-import {Intro} from "./Intro"
-import {Student} from "./Student"
-import {Event} from "./Event"
-import {Lists} from "./Lists"
-import {Count} from "./Count"
-import { StateLifting } from "./StateLifting"
-import {Forms} from "./Forms"
 // Every React application starts with a component.
+import { StudentForm } from "./minor_project(1-10)/StudentForm.jsx"
 export const App = () => {
 // Whatever is returned gets displayed on the browser.
   return (
     //HTML written inside JavaScript.
     <div>
-      <Intro />
-      <Display />
-      <Student 
-        name="Rishi"
-        age={20}
-      />
-      <Event />
-      <Lists />
-      <Count />
-      <StateLifting />
-      <Forms />
+      <StudentForm />
     </div>
   );
 }
