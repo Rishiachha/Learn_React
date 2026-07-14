@@ -3,13 +3,13 @@
 //main.jsx imports App.jsx.
 //React renders whatever App.jsx returns 
 // Every React application starts with a component.
-import { StudentForm } from "./minor_project(1-10)/StudentForm.jsx"
+import { Ref } from "./hooks/Ref"
 export const App = () => {
 // Whatever is returned gets displayed on the browser.
   return (
     //HTML written inside JavaScript.
     <div>
-      <StudentForm />
+      <Ref />
     </div>
   );
 }
