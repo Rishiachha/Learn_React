@@ -3,13 +3,17 @@
 //main.jsx imports App.jsx.
 //React renders whatever App.jsx returns 
 // Every React application starts with a component.
-import { Ref } from "./hooks/Ref"
+import { ReactMemo } from "./hooks/reactmemo/ReactMemo"
+import {UserApp} from "./hooks/context/UserApp"
+import {UseReducer} from "./hooks/UseReducer"
 export const App = () => {
 // Whatever is returned gets displayed on the browser.
   return (
     //HTML written inside JavaScript.
     <div>
-      <Ref />
+      <ReactMemo />
+      <UserApp />
+      <UseReducer />
     </div>
   );
 }
