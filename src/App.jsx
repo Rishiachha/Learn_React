@@ -4,13 +4,13 @@
 //React renders whatever App.jsx returns 
 // Every React application starts with a component.
 import { BrowserRouter,Routes,Route } from "react-router-dom"
-import {Debouncing} from "./Debouncing"
+import {Memorization} from "./Memorization"
 export const App = () => {
 // Whatever is returned gets displayed on the browser.
   return (
     //HTML written inside JavaScript.
     <div>
-      <Debouncing />
+      <Memorization />
     </div>
   );
 }
